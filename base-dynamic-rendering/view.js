@@ -1,6 +1,6 @@
-import todosView from "./components/todosView.js";
-import counterView from "./components/counterView.js";
-import filtersView from "./components/filtersView.js";
+import todosView from "./view/todosView.js";
+import counterView from "./view/counterView.js";
+import filtersView from "./view/filtersView.js";
 
 export default (targetElement, state) => {
     const element = targetElement.cloneNode(true);
